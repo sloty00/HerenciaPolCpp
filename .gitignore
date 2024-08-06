@@ -1,0 +1,57 @@
+# Ignorar archivos de compilación
+*.o
+*.obj
+*.so
+*.dll
+*.exe
+*.out
+*.a
+*.lib
+*.lo
+*.la
+
+# Ignorar archivos temporales de compiladores
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ignorar archivos de configuración del entorno
+.vscode/
+*.code-workspace
+
+# Ignorar archivos de configuración de IDEs
+*.idea/
+*.iml
+
+# Ignorar archivos generados por el IDE
+*.ncb
+*.sdf
+*.suo
+*.user
+*.vcxproj.user
+*.vcxproj.filters
+
+# Ignorar archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos de dependencias
+node_modules/
+
+# Ignorar archivos de proyectos de Visual Studio
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ignorar archivos generados por Visual Studio
+.vs/
+*.vcxproj.user
+*.vcxproj.filters
+
+# Ignorar archivos de proyecto de CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
